@@ -1,0 +1,14 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --transition-speed: 0.3s;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+}
